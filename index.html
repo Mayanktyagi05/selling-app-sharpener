@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selling App</title>
+</head>
+<body>
+    <form id="productForm">
+        <label for="sellingPrice">Selling Price:</label>
+        <input type="text" id="sellingPrice" required>
+        <label for="productName">Product Name:</label>
+        <input type="text" id="productName" required>
+        <button type="submit">Add Product</button>
+    </form>
+
+    <ul id="listOfItems"></ul>
+
+    <p>Total Cost: $<span id="totalCost">0.00</span></p>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
